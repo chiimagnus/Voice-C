@@ -2,3 +2,11 @@
 .DS_Store
 *.wav
 models/Qwen2-1.5B-Instruct.Q4_K_S.gguf
+voicecrh2.py
+voicecrh3.py
+voicecrh1.py
+tts_test2.py
+tts_test1.py
+*.mp3
+pyttsx3_test.py
+mactts_test.py
