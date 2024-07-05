@@ -42,6 +42,7 @@ pip install pydub
 ```
 
 此外，你可能还需要安装一些系统依赖项。对于pydub，还需要安装FFmpeg，
+
 对于Ubuntu:
 ```bash
 sudo apt-get install ffmpeg
