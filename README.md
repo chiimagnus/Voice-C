@@ -6,7 +6,7 @@
 LLM大模型可以任选，可在[huggingface](https://huggingface.co)上下载相应模型，
 文本转语音可使用gTTS，或者[coquiTTS](https://github.com/coqui-ai/TTS)
 
-## 文件结构
+## 1、文件结构
 
 ```bash
 ├───main_g.py
@@ -19,11 +19,11 @@ LLM大模型可以任选，可在[huggingface](https://huggingface.co)上下载�
 主要程序逻辑全部在 `main.py` 中，`models/` 文件夹存放模型文件。
 PS: 你需要单独建立一个`models/`文件夹，而`responses/`、`inputs/`文件夹你单独不需要建立。
 
-## 运行指南
+## 2、运行指南
 
 本项目基于 Python 编程语言，建议使用 [Anaconda](https://www.anaconda.com) 配置 Python 环境，当然也可以使用下面的conda命令创建环境～
 
-### 环境配置
+### 2.1、环境配置
 
 ```
 conda create -n VoiceAI python=3.11
@@ -51,11 +51,11 @@ brew install ffmpeg
 
 对于Windows: 你可以从[FFmpeg的官方网站](https://ffmpeg.org/download.html)下载并安装FFmpeg。
 
-### 模型文件
+### 2.2、模型文件
 
 LLM模型文件可参考[qwen2大模型的量化版本](https://huggingface.co/MaziyarPanahi/Qwen2-1.5B-Instruct-GGUF)。
 
-## 鸣谢
+## 3、鸣谢
 
 1、语音识别基于[whisper](https://github.com/openai/whisper)。
 
