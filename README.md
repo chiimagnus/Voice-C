@@ -18,6 +18,8 @@ LLM大模型可以任选，可在[huggingface](https://huggingface.co)上下载�
 
 主要程序逻辑全部在 `main.py` 中，`models/` 文件夹存放模型文件。
 PS: 你需要单独建立一个`models/`文件夹，而`responses/`、`inputs/`文件夹你单独不需要建立。
+`inputs/`存放输入语音
+`responses/`存放回复语音
 
 ## 2、运行指南
 
