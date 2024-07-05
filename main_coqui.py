@@ -20,11 +20,10 @@ os.makedirs(responses_dir, exist_ok=True)
 whisper_model = whisper.load_model("small")
 
 # 加载 LLM 模型
-# model_path = "./models/Yi-1.5-6B-Chat.Q2_K.gguf"
 model_path = "./models/Qwen2-1.5B-Instruct.Q4_K_S.gguf"
 llm_model = Llama(model_path)
 
-# 加载Coqui TTS模型
+# 加载Coqui TTS模型，会自动下载到默认位置，一般是缓存目录
 tts_model = TTS(model_name="tts_models/zh-CN/baker/tacotron2-DDC-GST", progress_bar=False, gpu=False)
 
 

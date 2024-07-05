@@ -16,8 +16,8 @@ os.makedirs(responses_dir, exist_ok=True)
 # 加载 Whisper 模型
 whisper_model = whisper.load_model("small")
 
-# 加载 Yi-1.5-6B-Chat.GGUF 模型
-model_path = "./models/Yi-1.5-6B-Chat.Q2_K.gguf"
+# 加载 LLM 模型
+model_path = "./models/Qwen2-1.5B-Instruct.Q4_K_S.gguf"
 llm_model = Llama(model_path)
 
 # 录音
