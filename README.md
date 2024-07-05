@@ -57,8 +57,11 @@ LLM模型文件可参考[qwen2大模型的量化版本](https://huggingface.co/M
 ## 鸣谢
 
 1、语音识别基于[whisper](https://github.com/openai/whisper)。
+
 2、文字回复基于[qwen2大模型的量化版本](https://huggingface.co/MaziyarPanahi/Qwen2-1.5B-Instruct-GGUF)。
+
 3、文字转语音基于gTTS或者使用[coquiTTS](https://github.com/coqui-ai/TTS)。
+
 4、作为开发者小白，在此非常感谢[linyiLYi的项目](https://github.com/linyiLYi/voice-assistant)对我的极大帮助。
 
 感谢各位程序工作者对开源社区的贡献！
